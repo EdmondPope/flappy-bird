@@ -14,9 +14,6 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile8`, function (sprite, l
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile5`, function (sprite, location) {
     game.gameOver(false)
 })
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-	
-})
 let mySprite: Sprite = null
 mySprite = sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
